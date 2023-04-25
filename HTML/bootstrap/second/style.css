@@ -1,0 +1,30 @@
+.container-fluid
+{
+    border: 1px solid black;
+   
+}
+.background
+{
+    background-image: url("./images/bg111.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 90vh;
+}
+.container 
+{
+    border: 1px solid red;
+    width: 62%;
+    margin-top: 4%;
+}
+.nav
+{
+    border: 1px solid blue;
+}
+.global 
+{
+    margin-top: 14%;
+}
+.global_media
+{
+    text-align: center;
+}

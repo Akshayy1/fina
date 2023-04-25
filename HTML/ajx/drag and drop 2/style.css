@@ -1,0 +1,21 @@
+.container
+{
+  border: 1px solid black;
+ 
+}
+.box
+{
+   border: 1px solid red;
+   margin: 5%;
+   padding: 10px;
+   cursor: move;
+   
+}
+.content
+{
+   background-color: red;
+}
+.hide
+{
+   display: none;
+}

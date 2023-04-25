@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js">
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contain">
+        <table id="table">
+            <tr>
+                <th>Id</th>
+                <th>Email</th>
+                <th>First_Name</th>
+                <th>Last_name</th>
+                <th>Avatar</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+         </table>
+         <form method="post" id="sub">
+            <input name="name" id="name" placeholder="name">
+            <input name="job" id="job" placeholder="job">
+            <button type="submit">Add</button>
+            </form>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $.ajax({
+                url:"https://reqres.in/api/users?page=2",
+                type:"GET",
+                success:function(alldata)
+                { 
+                    console.log(alldata);
+                    let data=alldata.data;
+                    console.log(data);
+                    let str = '';
+                    let count=1;
+                    data.map(item => {
+                     str+=`<tr>
+                        <td>${item.id}</td>
+                        <td>${item.email}</td>
+                        <td>${item.first_name}</td>
+                        <td>${item.last_name}</td>
+                        <td><img src="${item.avatar}"></td>
+                        <td><button type="button" id="button_${item.id}">Update</button></td>
+                        <td><button type="button" id="buttonn_${item.id}">Delete</button></td>
+                        </tr>`
+                        count++;
+                  });
+                  console.log(str);
+                  $("#table").append(str);
+                },
+                error:function(error){
+                    console.log(error);
+                }
+            })
+
+
+            $("#sub").submit(function(e)
+           { 
+            e.preventDefault();
+            let obj={
+                name:$("#name").val(),
+                job:$("#job").val()
+            };
+           
+            $.ajax({
+                url: "https://reqres.in/api/users",
+                type:"POST",
+                data:obj,
+                success:function(alldata){
+                    console.log(alldata);
+                },
+                error:function(error){
+                    console.log(error);
+                }
+            })
+         });
+        });
+    </script>
+</body>
+</html>

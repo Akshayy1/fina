@@ -1,0 +1,70 @@
+.all_content
+{
+    border: 1px solid black;
+}
+.background
+{
+    background-image: url(./images/bg111.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+.head_content
+{
+    text-align: center;
+    margin-top: 8rem;
+}
+.col-12
+{
+    border: 1px solid blue;
+}
+.cart
+{
+    border: 1px solid red;
+    margin-top: 1rem;
+}
+.inner
+{
+    width: 33%;
+}
+.cart
+{
+    display: flex;
+    justify-content: space-around;
+}
+.center
+{
+    text-align: center;
+}
+.col-2
+{
+    border: 1px solid;
+}
+.iphone_image
+{
+    width: 91%;
+    position: relative;
+    left: 16%;
+}
+.title
+{
+    background-color: red;
+}
+.advertise
+{
+    padding-top: 21%;
+}
+.background_two
+{
+    background-image: url("./images/bg.png");
+}
+.data
+{
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+.background_three
+{
+ background-image: url("./images/map.png");
+}

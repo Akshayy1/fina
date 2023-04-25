@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form class="student">
+            <div id="initial_info">
+                <label for="fname">NAME</label>
+                <input type="text" id="f_name" class="fname">
+                <p id="demo_one"></p>
+                <label for="lname">LAST NAME</label>
+                <input type="text" id="l_name" class="lname">
+                <p id="demo_two"></p>
+                <label for="country">COUNTRY</label>
+                <select id="country" class="your_country">
+                    <option value="" selected>none</option>
+                    <option value="India">INDIA</option>
+                    <option value="Nepal">NEPAl</option>
+                </select>
+                <button type="button" id="next">NEXT</button>
+            </div>
+            
+            
+            <div id="student_info">
+               <div id="degree">
+                <label for="education">Education</label>
+                <select name="educate" id="education">
+                    <option value="" selected>none</option>
+                    <option value="10th">10th</option>
+                    <option value="12th">12th</option>
+                    <option value="graduation">Graduation</option>
+                </select>
+                
+                <div class="is_filled">
+                <label for="percent">Percentage</label>
+                <input type="number" id="percent_0" class="data_filled">
+                <p id="percent_0_error"></p>
+                <label for="passing">Passing Year</label>
+                <input type="number" id="passing_0"class="data_filled">
+                <p id="passing_0_error"></p>
+                </div>
+                <button type="button" id="add">+</button>
+               </div>
+                
+               
+                <button type="button" id="prev">PREVIOUS</button>
+                <button type="button" id="subm">SUBMIT</button>
+            </div>
+
+
+            
+        </form>
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js">
+        </script>
+        <script>
+            let count=0;
+            $(document).ready(function(){
+                $('#student_info').hide();
+            });
+            $('#next').click(function()
+             {
+            
+                if($('#f_name').val()=='' && $('#l_name').val()=='')
+                {
+                    $('#demo_one').html("feild required");
+                    $('#demo_two').html("feild required");
+                   
+                }
+                else if($('#f_name').val()=='' && $('#l_name').val()!='')
+                {
+                    $('#demo_one').html("feild required");
+                    $('#demo_two').html("");
+                   
+                }
+                else if($('#f_name').val()!='' && $('#l_name').val()=='')
+                {
+                    $('#demo_one').html("");
+                    $('#demo_two').html("feild required");
+                   
+                }
+                else{
+                $('#initial_info').hide();
+                $('#student_info').show();
+                }
+             });
+             $('#prev').click(function()
+             {
+                $('#initial_info').show();
+                $('#student_info').hide();
+             });
+             $('#subm').click(function(){
+                var all=$(".data_filled");
+                 
+                 
+                 for(x of all)
+                 {
+                
+
+                    if(x.value=="")
+                    {
+                        
+                        $(`#${x.id}_error`).html("feild required");
+                    }
+                    else
+                    {
+                        $(`#${x.id}_error`).html("");
+                    }
+                    
+                 }
+                 
+                  });
+            $('#add').click(function()
+            {
+                count++;
+                $('#degree').append(`<div id="degree_${count}">
+                <label for="education">Education</label>
+                <select name="educate" id="education_${count}">
+                    <option value="" selected>none</option>
+                    <option value="10th">10th</option>
+                    <option value="12th">12th</option>
+                    <option value="graduation">Graduation</option>
+                </select>
+                <div class="is_filled">
+                    <label for="percent">Percentage</label>
+                <input type="number" id="percent_${count}" class="data_filled ">
+                <p id="percent_${count}_error"></p>
+                <label for="passing">Passing Year</label>
+                <input type="number" id="passing_${count}" class="data_filled ">
+                <p id="passing_${count}_error"></p>
+                </div>
+                <button type="button" id="remove_${count}">-</button>
+               </div>`);
+
+               $(`#remove_${count}`).click(function()
+            {
+            
+                
+               $(`#degree_${count}`).remove();
+               count--;
+            });
+                
+            
+
+            });
+           
+           
+            
+        </script>
+    </body>`
+</html>

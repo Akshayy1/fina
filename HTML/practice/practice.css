@@ -1,0 +1,10 @@
+.flex
+{
+    display:flex;
+    border: 1px solid salmon;
+    background-color: red;
+}
+.flrx >div{
+    background-color: black;
+    font-size: 2rem;
+}

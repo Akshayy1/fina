@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js">
+    </script>
+</head>
+<body>
+    <div class="contain">
+        <form method="post" id="daata">
+            <input type="text" placeholder="first_name" id="first_name">
+            <input type="text" placeholder="last_name" id="last_name">
+            <input type="email" placeholder="Email" id="Email">
+            <input type="text" placeholder="gender" id="gender">
+            <button type="submit" id="add_data">Add Data</button>
+        </form>
+        <button type="button" id="showall">Show all Data</button>
+      <table id="table">
+        <tr>
+         <th>FirstName</th>
+         <th>LastName</th>
+         <th>Email</th>
+         <th>gender</th>
+         <th>Update</th>
+         <th>Delete</th>
+         <th>Edit</th>
+        </tr>
+      </table>
+    </div>
+<script>
+    $(document).ready(function(){
+        $("#table").hide();
+        var count=1;
+        var t;
+        $.ajax({
+            url:"http://13.126.253.245:9010/api/users/list",
+            type:"GET",
+            success:function(getdata)
+            {
+                
+                 let data=getdata.data;
+                 let str="";
+                 let newData=data.filter(item=>item.status=="Active");
+                 newData.map(item =>{
+                    str+=`
+                    <tr id="info_${count}" draggable="true">
+                        <td id="fname_info_${count}">${item.first_name}</td>
+                        <td id="lname_info_${count}">${item.last_name}</td>
+                        <td id="email_info_${count}">${item.email}</td>
+                        <td id="gender_info_${count}">${item.gender}</td>
+                        <td>
+                            <button type="button" id="update_${count}" class="update-btn">Update</button>
+                        </td>
+                         <td>
+                            <button type="button" id="delete_${count}" class="delete-btn">Delete</button>
+                        </td>
+                        <td>
+                            <button type="button" id="edit_${count}" class="edit-btn">Edit</button>
+                        </td>
+                     </tr>
+                    `
+                    count++;
+                 });
+                 
+                 $("#table").append(str);
+            },
+            error:function(error)
+            {
+                console.log(error);
+            }
+
+        })
+        
+
+        $("#showall").click(function(){
+            $("#table").toggle();
+            $(".edit-btn").click(function(){
+                var p=this.id;
+                var above=$("#"+p).parent().parent().attr("id");
+               
+                $("#first_name").val($("#fname_"+above)[0].textContent);
+                $("#last_name").val($("#lname_"+above)[0].textContent);
+                $("#Email").val($("#email_"+above)[0].textContent);
+                $("#gender").val($("#gender_"+above)[0].textContent);
+            })
+            $(".update-btn").click(function(){
+                var t=this.id;
+                var parent=$("#"+t).parent().parent().attr("id");
+                let data1={
+                    // fname:$("#fname_"+parent)[0].textContent,
+                    // lname:$("#lname_"+parent)[0].textContent,
+                    // email:$("#email_"+parent)[0].textContent,
+                    // gender:$("#gender_"+parent)[0].textContent,
+                    fname:$("#first_name").val(),
+                    lname:$("#last_name").val(),
+                    email:$("#Email").val(),
+                    gender:$("#gender").val(),
+                }
+                 
+                $.ajax({
+                    url:"http://13.126.253.245:9010/api/users/update/profile",
+                    type:"PUT",
+                    data:data1,
+                    success:function(yourdata){
+                        console.log(yourdata);
+                    },
+                    error:function(error){
+                    console.log(error);
+                }
+
+                })
+              
+                
+                
+            })
+
+
+            $(".delete-btn").click(function(){
+                
+                var c=this.id;
+                 console.log(c);
+               var your_email= $("#"+c).parent().siblings()[2].textContent;
+               let data={
+                email:your_email
+               }
+               $.ajax({
+                url:"http://13.126.253.245:9010/api/users/profile/delete",
+                type:"DELETE",
+                data:data,
+                success:function(dataget){
+                       console.log(dataget);
+                },
+                error:function(error){
+                    console.log(error);
+                }
+               })
+
+               
+               
+                })
+
+        })
+
+        $("#daata").submit(function(e){
+           e.preventDefault();
+            let obj={
+                first_name:$("#first_name").val(),
+                last_name:$("#last_name").val(),
+                email:$("#Email").val(),
+                gender:$("#gender").val()
+             };
+            $.ajax({
+                url: "http://13.126.253.245:9010/api/users/profile",
+                type:"POST",
+                data:obj,
+                success:function(alldata){
+                    console.log(alldata);
+                },
+                error:function(error){
+                    console.log(error);
+                }
+            })
+        });
+    
+        
+});
+</script>
+</body>
+</html>

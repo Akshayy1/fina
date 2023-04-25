@@ -1,0 +1,24 @@
+.content_box
+{
+    border: 1px solid black;
+    height: 94px;
+    width: 8%;
+    margin-top: 1%;
+    display: inline-block;
+   
+}
+.content 
+{
+    background-image: url(first.jpg);
+    height: 94px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hold
+{
+  border: 1px solid red;
+}
+.hide
+{
+    display: none;
+}

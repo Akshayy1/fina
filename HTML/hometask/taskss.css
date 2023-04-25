@@ -1,0 +1,186 @@
+.outermost
+{
+    border: 1px solid;
+    width: 100%;
+    height: 630px;
+}
+.heading
+{
+    margin-left: 40%;
+}
+
+.block1
+{
+    border: 1px solid red;
+    width: 40%;
+    height: 434px;
+    margin-left: 10px;
+    float: left;
+   
+}
+
+.circle
+{
+    border: 1px solid yellow;
+    width: 100%;
+    height: 348px;
+    
+}
+.text
+{
+    float: left;
+}
+.purple
+{
+    width: 9%;
+}
+.yellow
+{
+    width: 9%;
+}
+.tomato
+{
+    width: 15%;
+}
+.teal
+{
+    width: 15%;
+}
+.chart
+{   float: left;
+    background-image: conic-gradient(yellow 30deg,tomato 30deg,tomato 70deg,teal 70deg,teal 105deg,purple 105deg,purple 310deg,yellow 310deg);
+    border-radius: 50%;
+    height: 255px;
+    border: 1px solid red;
+    width: 51%;
+    margin-left: 95px;
+    margin-top: 81px;
+}
+.alltext
+{
+    border: 2px solid blue;
+    height: 24px;
+    width: 91%;
+    margin-left: 21px;
+    
+}
+.information
+{
+    border: 1px solid tomato;
+    float: left;
+   
+    margin-left: 15px;
+    width: 53%;
+    height: 411px;
+   
+}
+.chart1
+{height: 113px;
+    border: 1px solid green;
+}
+.head1
+{
+  float: left;
+    margin-left: 33px;
+    margin-top: 7%;
+    
+}
+.img1
+{
+    float: left;
+    width: 28%;
+    height: 113px;
+}
+.para1
+{
+    float: left;
+    border: 1px solid;
+    width: 55%;
+    margin-top: 6%;
+    background-color: rgb(148, 104, 15);
+    color: white;
+
+}
+.chart2
+{
+    border: 1px solid red;
+    width: 100%;
+    height: 96px;
+}
+.head2
+{
+    float: left;
+    margin-left: 33px;
+    margin-top: 42px;
+   
+}
+.img2
+{   float: left;
+    width: 16%;
+    height: 96px;
+    margin-left: 41px;
+}
+.para2
+{
+    float: left;
+    width: 55%;
+    margin-left: 42px;
+    margin-top: 29px;
+    background-color: tomato;
+    color: white;
+}
+.chart3
+{
+    border: 1px solid blue;
+    width: 100%;
+    height: 100px;
+}
+.head3
+{
+    float: left;
+    margin-left: 33px;
+    margin-top: 34px;
+}
+.img3
+{
+    float: left;
+    width: 16%;
+    height: 96px;
+    margin-left: 46px;
+}
+.para3
+{
+    float: left;
+    width: 55%;
+    margin-left: 43px;
+    margin-top: 26px;
+    background-color: teal;
+    color: white;
+    text-overflow: clip;
+}
+.chart4
+{
+
+}
+.head4{
+    float: left;
+    margin-left: 33px;
+    
+}
+.img4
+{
+    float: left;
+    width: 12%;
+    height: 47px;
+    margin-left: 63px;
+    margin-top: 15px;
+}
+.para4
+{
+    float: left;
+    width: 55%;
+    background-color:purple;
+    color: white;
+    margin-left: 55px;
+    
+}

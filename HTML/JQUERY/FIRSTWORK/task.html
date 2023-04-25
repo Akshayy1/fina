@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <div id="save_data">
+        
+    </div>
+    <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js">
+</script>
+    <script>
+        
+        $(document).ready(function(){
+           $.ajax({
+            
+            url: "https://api.spacexdata.com/v3/capsules",
+            type: "GET",
+            success:function(alldata)
+        
+            {
+              console.log(alldata);
+              let data=alldata;
+              let str = '';
+              let count=1;
+              data.map(item => {
+                str+=`<div class="datass"> 
+                    
+                    <label>Id:</label> ${item.capsule_id}
+                    <label>Serial:</label> ${item.capsule_serial}
+                    <button type="button" id="click_${count}">Show more</button>
+                    <div class="other_details" id="click_${count}_details">
+                    <label>Details:</label> ${item.details}
+                    <label>Landings:</label> ${item.landings}
+                    <label>Id:</label> ${item.capsule_id}
+                    <label>Launch:</label> ${item.original_launch}
+                    <label>Launch_unix:</label> ${item.original_launch_unix}
+                    <label>Reuse:</label> ${item.reuse_count}
+                    <label>Status:</label> ${item.status}
+                    <label>TYpe:</label> ${item.type}
+                    </div>
+                    </div>
+                    `
+                    count++;
+                });
+                $("#save_data").html(str);
+                    $(".datass").css({"border":"2px solid black","width":"15%"});
+                    $("#save_data").css({"border":"2px solid red","display":"flex","flex-wrap":"wrap","justify-content":"space-between","gap":"1em"});
+                    $(".other_details").hide();
+                    $(".datass").css({"height":"fit-content"})
+                    $("button").click(function()
+                    {
+                       var t=this.id;
+                       $(`#${t}_details`).toggle();
+                    })
+            
+            },
+            error: function(error)
+            {
+                console.log("error");
+            }
+           })
+           
+        });
+        
+    </script>
+</body>
+</html>

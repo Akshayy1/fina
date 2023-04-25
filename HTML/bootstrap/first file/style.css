@@ -1,0 +1,83 @@
+.container-fluid
+{
+    border: 2px solid black;
+    
+    justify-content: center;
+    
+}
+.this
+{
+    background-image: url("./images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+}
+.row
+{
+    width: 62%;
+    border: 1px solid red;
+}
+.navbar-brand
+{
+    display: flex;
+    border: 1px solid red;
+}
+.circle_logo
+{
+    height: 4.4vh;
+}
+
+.nav-link
+{
+    
+    font-size: .49rem;
+    padding-left: 3.8%;
+    font-family: "Roboto";
+    opacity: 0.7;
+}
+.global
+{
+    text-align: center;
+}
+.global p
+{
+    color: white;
+    font-size: 1.1rem;
+    padding: 1% 0% 0% 4%;
+    font-family: "Roboto";
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+}
+#signup_rightnow
+{
+    margin-top: 1%;
+    background-image: linear-gradient(45deg, #de4627, #f29931);
+    height: 6.5vh;
+    width: 17%;
+    border-radius: 32px;
+    border: none;
+    margin-left: -3%;
+    color: white;
+    font-family: 'Roboto';
+    font-size: .57rem;
+    font-weight: 600;
+}
+.signup_rightnow_class
+{
+    width: 24%;
+}
+.box
+{
+    background-color: #f29931;
+    
+    border: 1px solid black;
+}
+.cart_one
+{
+    display: flex;
+    justify-content: space-between;
+    width: 62%;
+}

@@ -1,0 +1,278 @@
+.nav{
+    border:1px solid;
+    position: relative;
+    width: 1245px;
+    height: 27px;
+
+}
+.himg{
+    
+}
+.content{
+    border: 1px solid;
+    display: inline-block;
+    width:162px;
+    
+
+}
+.content1{
+    border: 1px solid;
+    display: inline-block;
+    
+
+}
+.photo{
+    border: 1px solid;
+    height: 25px;;
+}
+.second{
+    border: 1px solid aqua;
+    height: 601px;
+}
+
+.portion2{
+    border: 1px solid blue;
+    display:inline-block;
+    height: 370px;
+    width: 512px;
+    position: absolute;
+    top: 33px;
+    padding-left: 204px;
+    padding-top: 144px;
+
+}
+.portion3{
+    border: 1px solid brown;
+    display: inline-block;
+    width: 700px;
+    height: 512px;
+    background-image: url("house.webp");
+    background-repeat: no-repeat;
+    background-size: 660px 513px;
+   
+    position: absolute;
+    left: 526px;
+}
+.portion4{
+    border: 1px solid brown;
+    display: inline-block;
+    width: 63px;
+    height: 512px;
+    background-image: url("half-house.webp");
+    background-repeat: no-repeat;
+    background-size: 172px 514px;
+    position: absolute;
+    right: 8px;
+}
+.portion5{
+    border: 1px solid green;
+    width: 755px;
+    height: 119px;
+    position: absolute;
+    left: 68px;
+    background-color:white;
+    top: 286px;
+}
+
+.form{
+
+}
+.third{
+    border: 5px solid tomato;
+    height:351px;
+     position:relative;
+    
+}
+.hedi
+{
+border: 1px solid;
+}
+.para{
+border: 3px solid;
+width: 283px;
+margin-top: 4px;
+}
+.button{
+    margin-top:4px ;
+}
+.outlook{
+    border: 5px solid yellow;
+    display: inline-block;
+    position: absolute;
+    margin-left: 142px;
+    margin-top: 33px;
+}
+.fimage{
+    
+    position: absolute;
+    margin-left: 462px;
+    left: 40px;
+}
+.simage{
+    position: absolute;
+    margin-left: 687px;
+    margin-top: -45px;
+    left: 40px;
+}
+.timage{
+    position: absolute;
+    margin-left:914px;
+    left: 40px;
+}
+.rimage
+{
+    position: absolute;
+    margin-left: 1137px;
+    left: 40px;
+} 
+.f1image{
+    width: 211px;
+    height: 351px;
+}
+.f2image{
+    width: 211px;
+    height: 351px;
+}
+.f3image{
+    width: 211px;
+    height: 351px;
+}
+.f4image{
+    width: 61px;
+    height: 351px;
+}
+.senten{
+    border: 4px solid springgreen;
+    width: 124px;
+    margin-left: 727px;
+    margin-top: 312px;
+}
+.dotimg{
+   border: 2px solid chartreuse;
+   width: 130px;
+    height: 134px;
+    margin-left: -59px;
+    z-index: -1;
+    position: absolute;
+}
+.adjust
+{
+    width: 125px;
+    
+}
+.fourth{
+    border: 6px solid fuchsia;
+    height: 509px;
+}
+.top{
+    /* border: 2px solid navy; */
+    width: 162px;
+    height: 47px;
+    margin-left: 524px;
+}
+.parag{
+    /* border: 3px solid grey; */
+    width: 125px;
+    height: 18px;
+    margin-left: 538px;
+    margin-top: -24px;
+}
+.dottimg
+{       
+    /* border: 2px solid chartreuse; */
+    width: 82px;
+    height: 82px;
+    margin-left: 1142px;
+    margin-top: -41px;
+}
+.corner
+{
+    width: 74px;   
+}
+.build{
+    /* border: 4px solid red; */
+    width: 421px;
+    height: 326px;
+    margin-left: 769px;
+    margin-top: -49px;
+}
+.dimen{
+    width: 423px;
+    height: 326px;
+
+}
+.theouter
+{
+    border: 4px solid greenyellow;
+    width: 927px;
+    height: 328px;
+    background-color:silver;
+    margin-top: -292px;
+    margin-left: 78px;
+}
+.note{
+    /* border: 2px solid darkred; */
+    margin-left: 100px;
+    margin-top: 48px;
+}
+.para1{
+    /* border: 2px solid lightpink; */
+    margin-left: 100px;
+    margin-top: -21px;
+}
+.para2{
+    /* border: 2px solid teal; */
+    margin-left: 101px;
+    margin-top: -16px
+}
+.press{
+    /* border: 1px solid fuchsia; */
+    margin-left: 99px;
+    margin-top: -22px;
+}
+.downimg{
+    /* border: 2px solid blue; */
+    width: 112px;
+    height: 112px;
+    margin-left: 24px;
+    margin-top: -79px;
+}
+.emage{
+
+}
+.fifth{
+    border: 2px solid black;
+    height: 488px;
+}
+.notes{
+    border: 2px solid goldenrod;
+    background-color:silver;
+    width: 778px;
+    margin-left: 380px;
+    margin-top: 31px;
+    height: 307px;
+}
+.manage{
+    border: 2px solid rgb(228, 20, 54);
+    margin-left: 367px;
+    width: 319px;
+    height: 49px;
+    margin-top: 67px;
+}
+.ppara{
+    border: 2px solid purple;
+    width: 301px;
+    height: 43px;
+    margin-left: 385px;
+}
+.ppara2{
+    border: 2px solid hotpink;
+    width: 477px;
+    height: 77px;
+    margin-left: 213px;
+}
+.last{
+    border: 2px solid greenyellow;
+    width: 170px;
+    margin-left: 516px;
+}

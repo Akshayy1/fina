@@ -1,0 +1,667 @@
+.container
+{
+    border: 1px solid black;
+}
+/* navbar starts  */
+.blockone
+{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.innerone
+{
+    /* border: 1px solid blue; */
+    width: 15%;
+    margin-left: 13%;
+}
+.logo
+{
+    /* border: 1px solid purple; */
+    margin-top: 2%;
+}
+.innertwo
+{
+    /* border: 1px solid blue; */
+    width: 46%;
+    margin-right: 10%;
+}
+.content
+{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.bor
+{
+    /* border: 1px solid red; */
+}
+/* navbar ends  */
+/* block2 starts  */
+.block2
+{
+    /* border: 1px solid fuchsia; */
+    
+}
+.innerblock
+{
+    /* border: 1px solid seagreen; */
+    display: flex;
+}
+.logoo
+{
+/* border: 1px solid red; */
+}
+.virtual
+{
+    /* border: 1px solid red;  */
+    width: 31%;
+    margin-top: 8%;
+    margin-left: 6%;
+}
+.four
+{
+font-size: 3rem;
+}
+.para
+{
+    width: 108%;
+    font-size: 1.5rem;
+}
+.button
+{
+    background-color:rgb(22, 113, 232);
+    color: white;
+    border-radius: 30px;
+    width: 39%;
+    height: 7vh;
+    border: none;
+    margin-top: 8%;
+}
+.pictureone
+{
+    /* border: 1px solid red; */
+    width: 46%;
+    margin-top: 4%;
+    margin-left: 2%;
+}
+.illustrate
+{
+    width: 99%;
+}
+.only
+{
+    display: none;
+}
+/* block2 ends  */
+/* block3 starts  */
+.block3
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.provide
+{
+    width: 58%;
+    text-align: center;
+}
+.kit
+{
+    /* border: 2px solid teal; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kit1
+{
+    /* border: 1px solid red; */
+    width: 77%;
+    display: flex;
+    justify-content: space-between;
+}
+.item1
+    {
+        /* border: 1px solid black; */
+        width: 24%;
+        background-color: #dedede;
+        border-radius: 8%;
+        border: none;
+        margin-left: 10%;
+    }
+    .img1
+    {
+        width: 37%;
+        margin: 3% 0% 0% 5%;
+    }
+    .doctor
+    {
+        margin: 0% 0% 0% 4%;
+    }
+    .para1
+    {
+        width: 99%;
+        margin-left: 3%;
+    }
+    .item2
+    {
+        /* border: 1px solid black; */
+        width: 24%;
+        background-color: #dedede;
+        border-radius: 8%;
+        border: none;
+    }
+    .img2
+    {
+        width: 31%;
+        margin: 3% 0% 0% 5%;
+    }
+    .online
+    {
+        margin: 0% 0% 0% 4%;
+    }
+    .para2
+    {
+        width: 99%;
+        margin-left: 3%;
+    }
+    .item3
+    {
+        /* border: 1px solid black; */
+        width: 24%;
+    background-color: #dedede;
+    border-radius: 8%;
+    border: none;
+    margin-right: 13%;
+    }
+    .img3
+    {
+        width: 31%;
+        margin: 3% 0% 0% 5%;
+    }
+    .consulation
+    {
+        margin: 0% 0% 0% 4%;
+    }
+    .para3
+    {
+        width: 99%;
+        margin-left: 3%;
+    }
+.kit2
+{
+    /* border: 1px solid red; */
+    width: 77%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.more
+{
+    background-color: white;
+    color: rgb(69 143 246);
+    border-radius: 30px;
+    width: 18%;
+    height: 7vh;
+    border: none;
+    margin-top: 3%;
+    border: 1px solid rgb(69 143 246);
+}
+
+/* block3 ends  */
+/* block4 starts */
+.block4
+{
+/* border: 1px solid red; */
+}
+.inside
+{
+display: flex;
+}
+.picturetwo
+{
+    margin: 9% 0% 0% 6%;
+}
+.illustrate2
+{
+display: flex;
+}
+.real
+{
+    margin: 15% 0% 0% 5%;
+}
+
+.providers
+{
+    width: 59%;
+}
+.para4
+{
+    width: 56%;
+}
+.moree
+{
+    background-color: rgb(69 143 246);
+    color: white;
+    border-radius: 30px;
+    width: 18%;
+    height: 7vh;
+    border: none;
+    margin-top: 3%;
+}
+/* block4 ends  */
+/* block5 starts  */
+.shape
+{
+display: flex;
+}
+.mobile
+{
+    width: 19%;
+    border: 1px solid;
+    margin: 19% 0% 0% 15%;
+}
+.download
+{
+    background-color: rgb(69 143 246);
+    color: white;
+    border-radius: 30px;
+    width: 55%;
+    height: 7vh;
+    border: none;
+    margin-top: 11%;
+}
+.lgo 
+{
+    margin-left: 5%;
+}
+.illustrate3
+{
+    margin: 16% 0% 0% 8%;
+}
+/* block5 ends  */
+/* block6 strats  */
+.block6
+{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.blue
+{
+    /* border: 1px solid black; */
+    width: 60%;
+    background-color: rgb(90 155 242);
+    color: #dedede;
+    text-align: center;
+    flex-direction: column;
+    height: 45vh;
+    border-radius: 35px;
+}
+.edward
+{
+    display: flex;
+
+}
+.group
+{
+    width: 87%;
+    margin-top: 60%;
+    margin-left: 35%;
+}
+.founder
+{
+    width: 28%;
+    margin: 5% 0% 0% 2%;
+}
+.dedicated
+{
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 6%;
+}
+/* block6 ends  */
+/* block7 starts  */
+.block7
+{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.all
+{
+    margin-right: 10%;
+}
+.view
+{
+    background-color: rgb(22, 113, 232);
+    color: white;
+    border-radius: 30px;
+    width: 287%;
+    height: 7vh;
+    border: none;
+    margin-top: 60%;
+    
+}
+.cart
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.cartone
+{border: 1px solid;
+    width: 25%;
+}
+
+.photo1
+{
+    width: 100%;
+}
+.dise
+{
+    width: 103%;
+}
+.onm
+{
+    width: 94%;
+}
+.carttwo
+{border: 1px solid;
+    width: 25%;
+    }
+.cartthree
+{border: 1px solid;
+    width: 25%;
+    }
+/* block7 ends  */
+/* block8 starts  */
+.block8
+{
+    background-color: rgb(58, 128, 241);
+    display: flex;
+    height: 57vh;
+    margin-top: 4%;
+}
+.inn1
+{
+    width: 27%;
+    color: white;
+    margin: 8% 0% 0% 11%;
+}
+.inn2
+{
+    width: 54%;
+    margin-left: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+.com
+{
+    color: white;
+    margin-top: 12%;
+}
+
+/* block8 ends  */
+@media only screen and (max-width: 414px) {
+    
+    /* block2 starts  */
+.innerblock
+{
+  flex-direction: column;
+}
+.virtual
+{
+    
+    width: 93%;
+    margin-left: 3%;
+    text-align: center;
+}
+.four
+{
+    font-size: 2rem;
+}
+.para {
+    width: 99%;
+}
+.pictureone
+{
+    width: 94%;
+    margin-left: 3%;
+}
+/* block3 starts  */
+.block3
+{
+background-color: #dedede;
+}
+.provide
+{
+    width: 85%;
+    font-size: 1.5rem;
+}
+.kit1
+{
+    flex-direction: column;
+}
+.item1
+    {
+    width: 100%;
+    background-color: #d4c3c3;
+    }
+    .item2
+    {
+        width: 100%;
+        background-color: #d4c3c3;
+        margin-top: 5%;
+    }
+    .item3
+    {
+        width: 100%;
+        background-color: #d4c3c3;
+        margin-top: 5%;
+    }
+.kit2
+{
+    margin-top: 6%;
+    flex-direction: column;
+}
+.more
+{
+    width: 46%;
+    height: 4vh;
+}
+/* block3 ends  */
+/* navbar starts  */
+.innerone
+{
+    width: 42%;
+    margin-left: 8%;
+}
+.bor
+{
+    border: 1px solid red;
+    
+}
+.innertwo {
+    border: 1px solid blue;
+    width: 19%;
+    margin-right: 6%;
+    display: none;
+}
+.content {
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo {
+    border: 1px solid purple;
+    margin-top: 11%;
+}
+/* navbar ends  */
+/* block4 starts */
+
+.inside
+{
+    flex-direction: column;
+}
+.picturetwo
+{
+    margin: 4% 0% 0% 0%;
+}
+.illustrate2
+{
+    width: 100%;
+}
+.real
+{
+   margin: 0% 0% 0% 0%;
+}
+.providers
+{
+    width: 100%;
+    border: 1px solid;
+    text-align: center;
+}
+.para4
+{
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.moree
+{
+    width: 58%;
+    margin-left: 19%
+}
+/* block4 ends  */
+/* block5 starts  */
+.shape
+{
+    flex-direction: column;
+}
+.mobile
+{
+    width: 100%;
+    margin: 16% 0% 0% 0%;
+    text-align: center;
+}
+.para5
+{
+    border: 1px solid;
+    width: 85%;
+    font-size: 1.5rem;
+    margin-left: 7%;
+}
+.lgo 
+{
+    margin-left: 0%;
+}
+.illustrate3
+{
+    width: 100%;
+    border: 1px solid;
+    margin: 0% 0% 0% 0%;
+}
+/* block5 ends  */
+/* block6 strats  */
+.blue
+{
+    width: 100%;
+    height: 0%;
+}
+.edward
+{
+    flex-direction: column;
+}
+.group
+{
+    width: 18%;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+.founder
+{
+    width: 28%;
+    margin: 0% 0% 0% 36%;
+}
+.dedicated
+{
+    margin-top: 0%;
+}
+/* block6 ends  */
+/* block7 starts  */
+.all
+{
+    margin-right: 27%;
+}
+.cart
+{
+    flex-direction: column;
+}
+.cartone
+{
+    width: 100%;
+}
+.dise
+{
+    width: 100%;
+    text-align: center;
+}
+.onm
+{
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.carttwo
+{
+    width: 100%;
+    margin-top: 9%;
+}
+.cartthree
+{
+    width: 100%;
+    margin-top: 9%;
+}
+.check
+{
+    text-align: center;
+}
+/* block7 ends  */
+/* block8 starts  */
+.block8
+{
+    height: 109vh;
+    margin-top: 4%;
+    flex-direction: column;
+}
+.inn1
+{
+    width: 97%;
+    margin: 10% 0% 0% 0%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.inn2
+{
+    width: 95%;
+    margin-left: 3%;
+    flex-direction: column;
+    text-align: center;
+}
+.com
+{
+    background-color: rgb(60 119 215);
+    border: 1px solid;
+}
+/* block8 ends  */
+
+
+}

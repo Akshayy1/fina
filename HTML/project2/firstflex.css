@@ -1,0 +1,275 @@
+.outermost
+{
+    border: 2px solid black;
+    width: 100%;
+}
+/* nav bar starts */
+.nav
+{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.first
+{
+    border: 1px solid blue;
+    
+
+}
+.second
+{
+    border: 1px solid blue;
+    display: flex;
+    
+}
+.blog
+{
+    margin: 1rem 1rem 0rem 1rem;
+}
+/* nav bar ends */
+/* block1 starts  */
+.block1
+{
+border:1px solid green;
+width: 100%;
+}
+.few
+{
+    border:1px solid gold;
+}
+.platform
+{
+    border: 1px solid;
+    width: 60%;
+    font-size: 51px;
+    text-align: center;
+    height: 38vh;
+    margin-left: 13rem;
+}
+.para
+{
+    border: 1px solid;
+    width: 38%;
+    text-align: center;
+    font-size: 21px;
+    margin-left: 21rem;
+}
+/* block1 ends  */
+/* block2 starts */
+.block2
+{
+    border: 1px solid blue;
+    width: 100%;
+}
+.sevenn
+{
+    width: 100%;
+    height: 98vh;
+}
+/* block2 ends */
+/* block3 starts */
+.block3
+{
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.mika
+{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin-left: 1rem;
+}
+.circle
+{
+    width: 98%;
+    height: 13vh;
+}
+.data
+{
+display: flex;
+}
+.fb
+{
+width: 86%;
+    height: 10vh;
+}
+.blockthree
+{
+    width: 60%;
+    top: 1%;
+    margin-left: 18rem;
+    border: 1px solid black;
+    border-top: 2px solid black;
+}
+.lorem
+{
+    width: 98%;
+    margin-left: 1rem;
+}
+.lectus
+{
+    width: 98%;
+    margin-left: 1rem;
+}
+.pipeline
+{
+    width: 98%;
+    margin-left: 1rem;
+}
+.amet
+{
+    width: 98%;
+    margin-left: 1rem;
+}
+.culpa
+{
+    width: 98%;
+    margin-left: 1rem;
+}
+.spike
+{
+    width: 100%;
+    height: 68vh;
+
+}
+.caption
+{
+    width: 47%;
+    margin-left: 11rem;
+    text-align: center;
+}
+.viverra
+{
+    width: 98%;
+    margin-left: 1rem;
+}
+.ttwi
+{
+    width: 16%;
+    height: 9vh;
+}
+.abouut
+{
+    top: 2%;
+    border-top: 1px dotted black;
+    display: flex;
+
+}
+.circle1
+{
+width: 99%;
+}
+.stake
+{
+    border: 1px solid;
+    width: 9%;
+    height: 11vh;
+    margin-top: 1%;
+}
+.intro
+{
+    width: 62%;
+}
+/* block3 ends  */
+/* block4 starts  */
+.block4
+{
+    border: 1px solid fuchsia;
+    display: flex;
+    justify-content: center;
+}
+.contains
+{
+
+}
+.read
+{
+    
+}
+/* block4 ends */
+
+@media only screen and (max-width:414px) 
+ {
+    .platform 
+    {
+        width: 92%;
+        font-size: 37px;
+        height: 20vh;
+        margin-left: 1rem;
+    }
+    .para
+    {
+        width: 92%;
+        font-size: 25px;
+        margin-left: 1rem;
+    }
+    .sevenn {
+        width: 100%;
+        height: 30vh;
+    }
+    .blockthree {
+        top: 1%;
+        width: 91%;
+    margin-left: 1rem;
+    border: 1px solid black;
+    border-top: 2px solid black;
+    }
+    .circle {
+        width: 93%;
+        height: 10vh;
+    }
+    .fbtwi {
+        border: 1px solid;
+        width: 94%;
+        text-align: center;
+        
+    }
+    .fb {
+        width: 65%;
+    height: 7vh;
+    }
+    .mika
+{
+   display: flex;
+   flex-direction: column;
+}
+.spike {
+    width: 100%;
+    height: 27vh;
+    margin-left: 0rem;
+}
+.caption {
+    width: 82%;
+    margin-left: 2rem;
+    text-align: center;
+}
+.ttwi {
+    width: 95%;
+    height: 9vh;
+}
+.slog
+{
+    border: 1px solid;
+    width: 91%;
+}
+.tags
+{
+    width: 98%;
+    margin-left: 1rem;
+}
+.stake {
+    border: 1px solid;
+    width: 24%;
+    height: 10vh;
+    margin-top: 4%;
+}
+.intro
+{
+    width: 86%;
+}
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dg7ughvghc</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <form>
+                <div class=" step step-one " id="first">
+                    <h1>General Details</h1>
+                    <div class="information">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" class="dataone">
+                        <p id="error1"></p>
+                    </div>
+                    <div class="information">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" class="dataone">
+                        <p id="error2"></p>
+                    </div>
+                    <div class="information">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="dataone">
+                        <p id="error3"></p>
+                    </div>
+                    <div class="information">
+                        <label for="age">Age</label>
+                        <input type="number" id="age" class="dataone">
+                        <p id="error4"></p>
+                    </div>
+                    <div class="information">
+                        <label for="mobile">Mobile</label>
+                        <input type="number" id="mobile" class="dataone">
+                        <p id="error5"></p>
+                    </div>
+                    <div class="information">
+                        <label for="gender">Gender</label>
+                        <select id="gender" class="dataone">
+                            <option value="" selected></option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                          </select>
+                          <p id="error6"></p>
+                    </div>
+                    <div class="information">
+                        <button type="button" id="next" onclick="next_1()">NEXT</button>
+                    </div>
+                </div>
+                <div class="ab">
+                <div class="step step-two show" id="second">
+                    <h3>Education</h3>
+                    <div class="information">
+                        <label for="add">ADD</label>
+                        <button type="button" id="add" onclick="adds()">+</button>
+                        <label for="remove">REMOVE</label>
+                        <button type="button" id="remove" onclick="remove()">-</button>
+                    </div>
+                   <div class="tobeadded">
+                    <div class="information ">
+                        <label for="school">School Name</label>
+                        <input type="text" id="school" class="dataone school">
+                        <p id="error11"></p>
+                    </div>
+                    <div class="information">
+                        <label for="passing">Passing Year</label>
+                        <input type="number" id="passing" class="dataone passing">
+                        <p id="error22_0"></p>
+                    </div>
+                    <div class="information">
+                        <label for="degree">Degree</label>
+                        <input type="text" id="degree" class="dataone degree">
+                        <p id="error33_0"></p>
+                    </div>
+                   </div>
+                   <div class="information">
+                    <button type="button" id="prev" onclick="back()">PREVIOUS</button>
+                </div>
+                <div class="information">
+                    <button type="button" id="next" onclick="next_1()">NEXT</button>
+                </div>
+                </div>
+                
+            </div>
+                <div class="step step-three show" id="third">
+                    <h3>Experience</h3>
+                    <div class="information">
+                        <label for="add">ADD</label>
+                        <button type="button" id="add" onclick="adds()">+</button>
+                        <label for="remove">REMOVE</label>
+                        <button type="button" id="remove" onclick="remove()">-</button>
+                    </div>
+                <div class="information">
+                     <label for="cname">Company Name</label>
+                     <input type="text" id="cname" class="dataone">
+                     <p id="error111"></p>
+                </div>
+                <div class="information">
+                    <label for="Sdate">Starting Date</label>
+                    <input type="number" id="Sdate" class="dataone">
+                    <p id="error222"></p>
+               </div>
+               <div class="information">
+                <label for="Edate">EDate</label>
+                <input type="number" id="Edate" class="dataone">
+                <p id="error333"></p>
+           </div>
+           <div class="information">
+            <label for="designation">Designation</label>
+            <input type="text" id="designation" class="dataone">
+            <p id="error444"></p>
+       </div>
+       <div class="information">
+        <button type="button" id="prev" onclick="back()">PREVIOUS</button>
+    </div>
+    <div class="information">
+        <button type="button" id="next" onclick="next_1()">NEXT</button>
+    </div>
+                </div>
+                <div class="step step-four show" id="forth">
+                    <h3>Professional Summary</h3>
+                    <div class="information">
+                         <label for="summary">Summary</label>
+                         <input type="text" id="summary" class="dataone">
+                         <p id="error1111"></p>
+                    </div>
+                    <div class="information">
+                        <button type="button" id="prev" onclick="back()">PREVIOUS</button>
+                    </div>
+                    <div class="information">
+                        <button type="button" id="next" onclick="next_1()">NEXT</button>
+                    </div>
+                </div>
+                <div class="step step-five show" id="fifth">
+                    <h3>Skills</h3>
+                    <div class="information">
+                         <label for="skill">Your Skill</label>
+                         <input type="text" id="skill" class="dataone">
+                         <p id="error11111"></p>
+                    </div>
+                     <div class="information">
+                        <label for="add">ADD</label>
+                        <button type="button" id="add" onclick="adds()">+</button>
+                        <label for="remove">REMOVE</label>
+                        <button type="button" id="remove" onclick="remove()">-</button>
+                    </div>
+                    <div class="information">
+                        <button type="button" id="prev" onclick="back()">PREVIOUS</button>
+                    </div>
+                    <div class="information">
+                        <button type="submit" id="submit" onclick="formSubmit()">SUBMIT</button>
+                    </div>
+            </form>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

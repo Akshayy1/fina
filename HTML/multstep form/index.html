@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <section>
+    <div class="container">
+      <form>
+        <h3 >SIGN UP YOUR ACCOUNT</h3>
+        <div class="images">
+          <div class="icons"><i class="fa fa-user"></i></div>
+          <div class="icons"><i class="fa fa-envelope"></i></div>
+          <div class="icons"><i class="fa fa-lock"></i></div>
+          <div class="line"></div>
+       </div>
+        <div class="progress">
+          
+           <div id="loading">
+           </div>
+        </div>
+        <div class="step step-1 active " id="nextt1">
+          <div class="information">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName">
+            <p id="empty"></p>
+          </div>
+          <div class="information">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="LastName">
+            <p id="emptyone"></p>
+          </div>
+          <div class="information">
+            <label for="yourage">Your _Age</label>
+            <input type="number" id="yourage" name="yourage">
+            <p id="emptysecond"></p>
+          </div>
+          <div class="information">
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+              <option value="none" selected>Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+        <div class="information">
+          <button type="button" class="next-button" onclick="next()">NEXT</button>
+        </div>  
+        </div>
+        <div class="step step-2 show" id="nextt2">
+          <div class="information">
+            <label for="email">Email</label>
+            <input type="email" id="youremail" name="email">
+            <p id="emptyemail"></p>
+          </div>
+          <div class="information">
+            <label for="mobile">Phone Number</label>
+            <input type="number" id="mobile" name="phonenumber">
+            <p id="emptymobile"></p>
+          </div>
+          <div id="added">
+            
+              <div class="information">
+                <label for="education">Education</label>
+                <select name="educate" id="education">
+                  <option value="none" selected>none</option>
+                  <option value="10th">10th</option>
+                  <option value="12th">12th</option>
+                  <option value="graduation">Graduation</option>
+                </select>
+              </div>
+              <div class="information">
+                <label for="percent">Percentage</label>
+                <input type="number" id="percent">
+              </div>
+              <div class="information">
+                <label for="passing">Passing Year</label>
+                <input type="number" id="pasing">
+              </div>
+              <div class="information">
+                <label for="division">Division</label>
+                <input type="number" id="division">
+              </div>
+            
+            <label for="add">ADD</label>
+            <button type="button" id="add" onclick="adds()">+</button>
+            <label for="remove">REMOVE</label>
+            <button type="button" id="remove" onclick="remove()">-</button>
+          </div>
+          <div class="information">
+            <button type="button" class="prev-button" onclick="prev()">PREVIOUS</button>
+          <button type="button" class="next-button" onclick="secondnext()">NEXT</button>
+          </div>
+        </div>
+        <div class="step step-3 show" id="nextt3">
+          <div class="information">
+            <label for="password">Password</label>
+            <input type="password" id="yourpassword" name="password">
+            <p id="emptypassword"></p>
+          </div>
+          <div class="information">
+            <label for="comfirmpassword">ComfirmPassword</label>
+            <input type="password" id="confirmpass" name="confirmpassword">
+            <p id="confirmempty"></p>
+          </div>
+          <div class="information">
+            <button type="button" class="prev-button" onclick="prev()">PREVIOUS</button>
+          <button type="submit" class="submit-button" onclick="finalsubmit()">SUBMIT</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <script src="main.js">
+  </script>
+</body>
+</html>

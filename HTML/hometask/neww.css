@@ -1,0 +1,46 @@
+.practice
+{
+    width: 280px;
+    border: 1px solid black;
+    background-color: yellow;
+    transition: width 2s;
+}
+.practice:hover
+{
+    transform: translate(30px,50px);
+    
+   width: 500px;
+}
+.practice1
+{
+    width: 280px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+.practice1:hover
+{
+    
+    transform: skew(15deg,5deg);
+}
+.practice3
+{
+    width: 280px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+.practice3:hover
+{
+    
+    transform: rotate(90deg);
+}
+.practice4
+{
+    width: 280px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+.practice4:hover
+{
+    
+    transform:matrix(2, -0.3, 0, 1, 0, 0);
+}

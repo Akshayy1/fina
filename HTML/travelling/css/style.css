@@ -1,0 +1,1057 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:"poppins";
+    background-color: #faf8ed;
+}
+
+.container
+{
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: #faf8ed;
+    justify-content: center;
+    display: flex;
+}
+.radius
+{
+    width: 90%;
+    /* border: 2px solid slategray; */
+}
+/* block1 starts */
+.block1
+{
+    width: 100%;
+    height: 17vh;
+    /* border: 2px solid red; */
+    display: flex;
+    
+}
+.hidden
+{
+    display: none;
+}
+.top
+{
+    width: 22.33%;
+}
+.mid
+{
+    width: 51.33%;
+}
+.bottomm
+{
+    width: 33.33%;
+}
+.containerone
+{
+    display: flex;
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 10vw;
+    align-items: center;
+    
+}
+.union
+{
+    width: 4vw;
+    height: 7vh;
+}
+.containertwo
+{
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 43vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.pres
+{    
+    font-size: 1rem;
+}
+.containerthree
+{
+    /* border: 2px solid blue; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 39%;
+    margin-right: -45%;
+    justify-content: end;
+}
+.button
+{
+    color:#ee8162;
+    /* border: 1px solid tomato; */
+    border-radius: 40px;
+    height: 8vh;
+    width: 30%;
+    margin-left: 58%;
+    border: 1px solid #ee8162;
+}
+
+/* block1 ends  */
+/* block2 starts  */
+.block2
+{
+    
+    display: flex;
+    /* border: 2px solid rgb(21, 214, 50); */
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.itemone
+{    
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 86vh;
+    
+    
+}
+.discover
+{
+    font-size: 6vw;
+    line-height: 108%;
+}
+#plan
+{
+    margin-top: -9%;
+    font-size: 121%;;
+}
+#date
+{
+    width: 100%;
+    height: 10vh;
+    border-radius: 38px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    margin-top: 7%;
+    animation-name: examplee;
+    animation-duration: 5s;
+    
+}
+.hu 
+{
+    width: 46px;
+    margin-top: 16%;
+}
+.allow
+{
+    line-height: 1%;
+}
+.png
+{
+
+}
+.itemtwo
+{    
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 86vh;
+    position: relative;
+    animation-name: pic;
+    animation-duration: 5s;
+
+}
+.alone
+{
+    position: absolute;
+    /* border: 1px solid; */
+    width: 25%;
+    border-radius: 12px;
+    top: 55%;
+    left: 6%;
+    background-color: white;
+}
+.highg
+{
+    width: 100%;
+}
+.dfde
+{
+    /* border: 1px solid; */
+    width: 98%;
+    display: flex;
+    border-radius: 11px;
+    position: absolute;
+    top: 81%;
+    left: 2%;
+}
+.loww 
+{
+    width: 21%;
+    position: relative;
+}
+.brb
+{
+    margin-top: -1%;
+}
+.young
+{
+    width: 69%;
+    height: 85vh;
+    margin-left: 19%;
+    /* border: 1px solid; */
+    border-radius: 202px;
+    background-color: #ffd482;
+}
+/* block2 ends  */
+/* block3 starts  */
+.block3
+{
+    /* border: 2px solid blue; */
+    width: 100%;
+    margin-top: 0%;
+}
+.out
+{
+    display: flex;
+    justify-content: space-between;
+}
+.empty
+{
+    width: 6%;
+}
+.categories
+{
+    /* border: 2px solid green; */
+    width: 41%;
+    margin-top: 4%;
+    height: 45vh;
+}
+.lots
+{
+    font-size: 5vw;
+    line-height: 136%;
+}
+.confuse
+{
+    margin-top: -11%;
+    margin-bottom: 7%;
+    font-size: 118%;
+}
+.leri
+{
+    display: flex;
+    /* border: 1px solid; */
+    height: 11vh;
+    width: 11%;
+    justify-content: space-around;
+    margin-top: 22%;
+}
+.onns
+{
+    width: 168%;
+    height: 7vh;
+    border-radius: 28px;
+}
+.onns:hover
+{
+    box-shadow:3px 3px 50px #918f8f;
+    width: 50px;
+    height: 50px;
+}
+.visite
+{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+    justify-content: space-between;
+    animation-name: example;
+    position: relative;
+    animation-duration: 6s;
+    animation-delay: 3s;
+
+}
+.beach
+{
+    text-align: center;
+    transition: width 3s, height 3s;
+}
+.beach:hover
+{
+    width: 190px;
+    height: 310px;
+    box-shadow:3px 3px 50px #ee8162;
+    background-color: #faf8ed;
+    border-radius: 10px;
+}
+.dimen
+{
+    width: 95%;
+    transition: width 1s, height 1s, transform 1s;
+    margin-top: 4%;
+}
+/* block3 ends  */
+/* block4 starts  */
+.block4
+{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6%;
+}
+.canon 
+{
+    width: 50%;
+    /* border: 2px solid; */
+}
+.thom
+{
+    width: 76%;
+    /* border: 1px solid blue; */
+    border-radius: 283px;
+    height: 74vh;
+    margin-left: 3%;
+    background-color: #ffd482;
+}
+.experience
+{
+    /* border: 2px solid; */
+    width: 48%;
+}
+#ruo
+{
+    color: tomato;#ee8162
+    margin-bottom: -9%;
+}
+#adven
+{
+    font-size: 2.7rem;
+}
+#you
+{
+    font-size: 1rem;
+    margin-top: -6%;
+}
+.around
+{
+    background-color: #ffffff;
+    height: 27vh;
+    width: 32%;
+    border-radius: 25px;
+    /* box-shadow: 2px 2px #ee8162; */
+}
+.around:hover
+{
+   width: 170px;
+   height: 170px;
+   box-shadow: 2px 2px #ee8162; 
+   border: 1px solid #ee8162;
+}
+.thousand
+{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+    height: 28vh;
+}
+.twelve
+{
+    color: tomato;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 3rem;
+}
+.succ
+{
+    color:#878484;
+    text-align: center;
+    margin-top: -38%;
+    font-size: 1.4rem;
+}
+/* block4 ends  */
+/* block5 stars  */
+.block5
+{
+    /* border: 2px solid blue; */
+}
+.beachh
+{
+    border: 2px solid white;
+    border-radius: 14px;
+    height: 72vh;
+    width: 31%;
+    background-color: #faf8ed;
+    box-shadow: 4px 4px white;
+    margin-top: 2%;
+}
+.beachh:hover
+{
+    width: 365px;
+    height: 445px;
+    box-shadow: 3px 3px 10px rgb(108, 108, 108);
+}
+.dimenn
+{
+    width: 93%;
+    text-align: center;
+    margin: 3% 0% 0% 3%;
+}
+.rupee
+{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 9% 0% 0% 5%;
+}
+.visitee
+{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 84vh;
+    animation-name: extend;
+    animation-duration: 10s;
+    animation-delay: 6s;
+    position: relative;
+}
+.ggf
+{
+    width: 46%;
+    border-radius: 22px;
+    margin-bottom: 4%;
+    background-color: #ffffff;
+}
+.lan 
+{
+    margin: 8% 0% 0% 5%;
+}
+/* block5 ends  */
+/* block6 starts */
+.block6
+{
+    /* border: 2px solid firebrick; */
+    width: 100%;
+    height: 144vh;
+}
+.thefirst
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+.buttonss
+{
+    width: 55%;
+    height: 7vh;
+}
+
+.outt
+{
+    width: 19%;
+    height: 86%;
+    border-radius: 27px;
+    background-color: #ffffff;
+    border: 1px solid;
+}
+.outt:hover{
+    color: white;
+    transform: scaleY(2);
+    background-image: linear-gradient(45deg, black, transparent);
+}
+.height
+{
+    font-size: 2rem;
+}
+.para
+{
+    font-size: 1.5rem;
+    margin-top: -3%;
+}
+.thesecond
+{
+    /* border: 2px solid saddlebrown; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    width: 100%;
+    height: 93vh;
+}
+.sectone
+{
+    width: 28%;
+    height: 92vh;
+    text-align: center;
+}
+.adjus
+{
+    width: 100%;
+    margin-top: 4%;
+    height: 43vh;
+}
+
+.secttwo
+{
+    width: 31%;
+    margin-left: 1%;
+    height: 96vh;
+}
+.yelloww
+{
+    width: 95%;
+    margin-top: 4%;
+    margin-left: 2%;
+    height: 89vh;
+}
+.sectthree
+{
+    width: 40%;
+    height: 96vh;
+}
+.park
+{
+    margin-top: 4%;
+    margin-left: 2%;
+    width: 95%;
+    height: 40vh;
+}
+.tower
+{
+    display: flex;
+}
+.towerone
+{
+    width: 95%;
+    margin-left: 2%;
+    margin-top: 4%;
+    height: 46vh
+}
+.towertwo
+{
+    margin-left: 3%;
+    margin-top: 3%;
+    height: 45vh;
+    width: 92%;
+}
+/* block6 starts */
+/* block7 starts */
+.block7
+{
+    /* border: 2px solid fuchsia; */
+}
+.free
+{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 8%;
+    /* border: 2px solid; */
+}
+.click
+{
+/* border: 2px solid navy; */
+}
+.myy
+{
+    /* border: 2px solid tomato; */
+    width: 50%;
+    height: 83vh;
+    text-align: center;
+    animation-name: pic;
+    position: relative;
+    animation-delay: 15s;
+    animation-duration: 5s;
+}
+
+.attractive
+{
+    margin-left: 0%;
+    width: 67%;
+    border-radius: 180px;
+    height: 82vh;
+    /* border: 1px solid; */
+    background-color: #ee8162;
+}
+.said
+{
+    /* border: 1px solid; */
+    width: 50%;
+}
+.whitee
+{
+    /* border: 1px solid; */
+    background-color: #ffffff;
+    border-radius: 18px;
+    width: 97%;
+    height: 44vh;
+    position: relative;
+    padding: 2%;
+}
+.local
+{
+    width: 22%;
+    height: 11vh;
+    position: absolute;
+    left: 73%;
+    top: 67%;
+    display: flex;
+    justify-content: space-around;
+}
+.divi
+{
+    width: 192%;
+    height: 8vh;
+    border-radius: 53px;
+}
+/* block7 ends */
+/* block8 starts  */
+.block8
+{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+}
+.newsletter
+{
+    width: 100%;
+    background-color: #ffd482;
+    height: 47vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 29px;
+    margin-top: 6%;
+}
+.addre
+{
+    display: flex;
+    /* border: 1px solid; */
+    width: 51%;
+    background-color: white;
+    border-radius: 13px;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+.ppp
+{
+    margin-top: -4%;
+    width: 42%;
+    text-align: center;
+}
+.corner
+{
+    width: 185%;
+    margin-top: 81%;
+    margin-left: 346%;
+}
+/* block8 ends  */
+/* block9 start */
+.block9
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+}
+.opp
+{
+    /* border: 2px solid blue; */
+    width: 20%;
+    height: 39vh;
+}
+.travelling
+{
+    /* border: 2px solid blue; */
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    height: 39vh;
+}
+.operate
+{
+    display:flex;
+}
+.unionn
+{
+    width: 3vw;
+    height: 5vh;
+    margin-top: 61%;
+}
+.with
+{
+    width: 62%;
+}
+.logs
+{
+    width: 55%;
+    margin-top: 7%;
+}
+/* block9 ends */
+@media only screen and (max-width: 414px) 
+{ 
+
+    .radius {
+        width: 100%;
+    }
+    .block1
+    {
+        display: none;
+    }
+    .hidden
+    {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    }
+    .floating
+    {
+        display: none;
+        border: 1px solid;
+        width: 100%;
+        position: absolute;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    .sss
+    {
+        font-size: 2rem;
+    }
+    .ham
+    {
+        width: 100%;
+    }
+    .ham:hover+.floating{
+        display: block;
+    }
+    .mid
+    {
+        text-align: center;
+    }
+    .change
+    {
+
+    }
+    .changee
+    {
+        margin-top: 15%;
+        width: 100%;
+        height: 53%;
+        border-radius: 29px;
+        border: 1px solid #ee8162;
+    }
+    .block2 {
+        flex-direction: column;
+    }
+    .itemone {
+        width: 100%;
+        height: 58vh;
+    }
+    .discover {
+        font-size: 14vw;
+    text-align: center;
+    }
+    #plan {
+        margin-top: -8%;
+        font-size: 167%;
+        text-align: center;
+    }
+    #date {
+        width: 100%;
+    height: 8vh;
+    }
+    .itemtwo {
+    width: 100%;
+    height: 63vh;
+    }
+    
+    .young {
+        width: 92%;
+        height: 55vh;
+        margin-left: 4%;
+        border-radius: 202px;
+        background-color: #ffd482;
+        margin-top: 18%;
+    }
+    .categories {
+        width: 100%;
+    height: 53vh;
+    text-align: center;
+    }
+    .lots {
+        font-size: 16vw;
+    line-height: 133%;
+    }
+    .leri{
+        display: none;
+    }
+    .confuse {
+    font-size: 192%;
+    }    
+    .visite {
+    
+    flex-direction: column;
+    }
+    .height {
+        font-size: 2.5rem;
+    }
+    .lll
+    {
+        font-size: 3rem;
+    }
+    .block4 {
+
+        flex-direction: column;
+    }
+    .canon {
+        width: 100%;
+        margin-top: 3%;
+    }
+    .thom {
+        width: 96%;
+        border-radius: 283px;
+        height: 53vh;
+        margin-left: 2%;
+        background-color: #ffd482;
+    }
+    #adven {
+        font-size: 2.7rem;
+    }
+    #you {
+        font-size: 1.5rem;
+    }
+    .experience {
+        width: 100%;
+    text-align: center;
+    }
+    .thousand {
+        height: 19vh;
+    }
+    .around {
+        
+        height: 18vh;
+    
+    }
+    .visitee {
+        flex-direction: column;
+    margin-top: 54%;
+    }
+    .beachh {
+        
+        height: 52vh;
+        width: 100%;
+        margin-top: 5%;
+    }
+    .thefirst {
+        text-align: center;
+    }
+    .buttonss {
+        
+        width: 100%;
+    
+    }
+    .thesecond {
+        flex-direction: column;
+    }
+    .sectone {
+        width: 100%;
+        height: 85vh;
+    }
+    .secttwo {
+        width: 100%;
+        height: 63vh;
+    }
+    .yelloww {
+        width: 99%;
+    margin-left: 0%;
+    margin-top: 19%;
+    }
+    .sectthree {
+    width: 100%;
+    height: 49vh;
+    }
+    .block5
+    {
+        height: 204vh;
+    }
+    .park {
+        
+    width: 97%;
+    margin-left: 1%;
+    margin-top: 85%;
+
+    }
+    .free {
+        flex-direction: column;
+    }
+    .myy {
+        
+        width: 100%;
+    }
+    .attractive
+    {
+        width: 100%;
+    }
+    .local {
+        width: 30%;
+        height: 11vh;
+        position: absolute;
+        left: 30%;
+        top: 81%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .divi {
+        width: 192%;
+        height: 5vh;
+        border-radius: 53px;
+    }
+    .corner {
+        width: 185%;
+        margin-top: 89%;
+        margin-left: 72%;
+    }
+    .opp {
+        height: 43vh;
+     }
+    .block6
+    {
+        
+        height: 316vh;
+    }
+    .said {
+        
+        width: 100%;
+        text-align: center;
+    }
+    .newsletter {
+        text-align: center;
+    }
+    .addre {
+        
+        width: 98%;
+    }
+    .block7
+    {  
+    }
+    
+    .block9 {
+        flex-direction: column;
+    }
+    .operate {
+        justify-content: center;
+    }
+    .opp {
+        
+        width: 100%;
+        height: 44vh;
+        text-align: center;
+    }
+    .unionn {
+        width: 16vw;
+        height: 7vh;
+        margin-top: 111%;
+    }
+    .life
+    {
+        font-size: 3rem;
+    }
+
+.with {
+    width: 100%;
+}
+    .travelling {
+       
+        width: 100%;
+        height: 89vh;
+        flex-direction: column;
+        text-align: center;
+    }
+    .alone {
+        position: absolute;
+        /* border: 1px solid; */
+        width: 20%;
+        border-radius: 12px;
+        top: 70%;
+        left: 0%;
+        background-color: white;
+    }
+    .highg {
+        width: 99%;
+    }
+    .brb {
+        margin-top: -10%;
+        font-size: .9rem;
+    }
+    .dfde {
+        /* border: 1px solid; */
+        width: 100%;
+        display: flex;
+        border-radius: 11px;
+        position: absolute;
+        top: 81%;
+        left: -12%;
+    }
+    .hu {
+        width: 46px;
+        margin-top: 31%;
+    }
+    .allow {
+        line-height: 81%;
+    }
+}
+
+@keyframes example
+{
+    from
+    {
+         width: 0%;
+    }
+    to 
+ {
+        width: 100%;
+    }
+}
+@keyframes examplee
+{
+    from
+    {
+         width: 25%;
+    }
+    to 
+ {
+        width: 100%;
+    }
+}
+@keyframes extend
+{
+    from
+    {
+         width: 0%;
+    }
+    to 
+ {
+        width: 100%;
+    }
+}
+@keyframes pic
+{
+    from
+    {
+         width: 0%;
+    }
+    to 
+ {
+        width: 50%;
+    }
+}
+/* js regarding class */
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }

@@ -1,0 +1,626 @@
+
+.block1{
+    /* border: 1px solid lightgrey; */
+    height: 42px;
+    position: relative;
+}
+.firsthalf{
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+.secondhalf{
+    /* border: 2px solid; */
+    position: absolute;
+    height: 39px;
+    top: -5px;
+    right: 79px;
+
+}
+.rent{
+    width: 112px;
+    height: 21px;
+    
+}
+.second{
+    display: inline-block;
+}
+.insecond{
+
+}
+.third{
+    display: inline-block;
+    margin-left: 10px;
+}
+.inthird{
+
+}
+.fourth{
+    display: inline-block;
+    margin-left: 10px;
+}
+.fifth{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* -------------block2------------------- */
+.block2{
+    /* border:2px solid brown; */
+    position:relative;
+    height: 580px;
+}
+.half{
+    /* border: 2px solid green; */
+    width: 55px;
+    height: 542px;
+    position: absolute;
+    right: 0px;
+}
+.house{
+    width: 55px;
+    height: 542px;
+}
+.img2{
+    /* border: 2px solid yellow; */
+    width: 410px;
+    position: absolute;
+    right: 77px;
+    height: 547px;
+}
+.img21{
+    height: 548px;
+    width: 410px;
+}
+.dotted1{
+    /* border: 2px solid navy; */
+    position: absolute;
+    top: 372px;
+    left: 13px;
+}
+.dotted12{
+
+}
+.heading{
+    /* border: 2px solid crimson; */
+    position: absolute;
+    left: 85px;
+    top: 136px;
+    width: 593px;
+    
+}
+.head{
+    /* border: 1px solid aqua; */
+    font-size: 37px;
+}
+.para{
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 51px;
+}
+.final{
+    /* border: 2px solid darkcyan; */
+    width: 852px;
+    height: 198px;
+    position: absolute;
+    top: 268px;
+    left: 86px;
+    background-color: white;
+}
+.top
+{
+    /* border: 1px solid green; */
+    width: 373px;
+    height: 41px;
+    position: absolute;
+    left: 17px;
+}
+.start{
+
+}
+.corner{
+    /* border: 1px solid black; */
+    width: 70px;
+    position: absolute;
+    right: 0px;
+}
+.dsec{
+    width: 67px;
+    height: 66px;
+}
+
+/* -------------block3------------------- */
+.block3{
+    /* border: 1px solid purple; */
+    position: relative;
+    height: 350px;
+}
+.nature4{
+    /* border: 1px solid lawngreen; */
+    width: 55px;
+    height: 292px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+.n4{
+    width: 55px;
+    height: 292px;
+}
+.nature3{
+    /* border: 1px solid red; */
+    width: 205px;
+    height: 292px;
+    position: absolute;
+    right: 78px;
+    top: 41px;
+}
+.n3{
+    width: 203px;
+    height: 292px;
+}
+.nature2{
+    /* border: 1px solid palegreen; */
+    width: 205px;
+    height: 292px;
+    position: absolute;
+    right: 301px;
+    top: 0px;
+}
+.n2
+{
+    width: 203px;
+    height: 292px;
+}
+.nature1{
+    /* border: 1px solid red; */
+    width: 205px;
+    height: 292px;
+    position: absolute;
+    right: 528px;
+    top: 41px;
+}
+.n1{
+    width: 203px;
+    height: 292px;
+}
+.disc{
+    height: 104px;
+    /* border: 1px solid blue; */
+    width: 292px;
+    position: absolute;
+    top: 70px;
+    left: 72px;
+}
+.size{
+    font-size: 30px;
+}
+.sent{
+    /* border: 1px solid darkblue; */
+    width: 418px;
+    position: absolute;
+    top: 159px;
+    left: 72px;
+}
+.sent1{
+    font-size: 19px;
+}
+.discover
+{
+    position: absolute;
+    top: 235px;
+    left: 72px;
+}
+/* -----------block4--------- */
+.block4{
+    /* border: 1px solid goldenrod; */
+height: 497px;
+position: relative;
+}
+.top1{
+    /* border: 1px solid red; */
+    font-size: 27px;
+    width: 259px;
+    height: 74px;
+    position: absolute;
+    left: 482px;
+}
+.down{
+    /* border: 1px solid purple; */
+    width: 126px;
+    height: 35px;
+    position: absolute;
+    left: 547px;
+    top: 62px;
+}
+.agdotted{
+    /* border: 1px solid black; */
+    width: 118px;
+    height: 120px;
+    position: absolute;
+    right: 0px;
+    top: 85px;
+}
+.ddotted1{
+    width: 118px;
+    height: 120px;
+}
+.content{
+    /* border: 1px solid green; */
+    background-color: silver;
+    width: 751px;
+    position: absolute;
+    height: 280px;
+    top: 162px;
+    left: 96px;
+}
+.b4top
+{
+/* border: 1px solid red; */
+    position: absolute;
+    width: 189px;
+    top: 56px;
+    left: 84px;
+}
+.paraf{
+/* border: 2px solid; */
+width: 511px;
+    height: 48px;
+    position: absolute;
+    top: 75px;
+    left: 83px;
+}
+.h2{
+
+}
+.smpara
+{
+    line-height: 1px;
+    width: 465px;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    top: 128px;
+    left: 83px;
+}
+.learn{
+    position: absolute;
+    top: 195px;
+    left: 83px;
+}
+.service{
+    /* border: 2px solid saddlebrown; */
+    height: 283px;
+    width: 404px;
+    position: absolute;
+    top: 120px;
+    left: 785px;
+}
+.house1{
+    height: 284px;
+    width: 404px;
+}
+.dotr
+{
+    /* border: 2px solid green; */
+    width: 114px;
+    position: absolute;
+    top: 365px;
+    left: 41px;
+}
+/* -----------block5------------- */
+.block5{
+    /* border: 2px solid; */
+    height: 530px;
+    position: relative;
+}
+.material{
+    /* border: 1px solid red; */
+    background-color: silver;
+    width: 914px;
+    height: 300px;
+    position: absolute;
+    left: 238px;
+    top: 74px;
+}
+.star{
+    /* border: 1px solid palegreen; */
+    width: 232px;
+    position: absolute;
+    left: 559px;
+    top: 52px;
+}
+.ccontent
+{position: absolute;
+    left: 377px;
+    top: 99px;
+}
+.downcont
+{
+    position: absolute;
+    top: 139px;
+    left: 101px; 
+}
+.elearn{
+    position: absolute;
+    left: 712px;
+    top: 210px;
+}
+.dotdot{
+    position: absolute;
+    left: 1084px;
+    top: 26px;
+}
+.dot2d{
+
+}
+.service1{
+    width: 343px;
+    height: 323px;
+    position: absolute;
+    top: 125px;
+    left: 62px;
+}
+.office{
+    width: 343px;
+    height: 323px;
+}
+.last1{
+    z-index: -1;
+    width: 127px;
+    height: 117px;
+    position: absolute;
+    top: 377px;
+    left: 11px;
+}
+.dimen{
+    width: 127px;
+    height: 117px;
+}
+/* ------block6-------- */
+.block6{
+    /* border: 2px solid fuchsia; */
+    height: 1189px;
+    position: relative;
+}
+
+.element1{
+    /* border: 1px solid blue; */
+    width: 316px;
+    height: 62px;
+    position: absolute;
+    left: 500px;
+}
+.default{
+    height: 340px;
+    width: 362px;
+    position: absolute;
+    left: 10px;
+}
+.defhou
+{
+    height: 409px;
+    width: 395px;
+
+}
+.default3{
+    height: 340px;
+    width: 362px;
+    position: absolute;
+    right: 456px;
+}
+
+.defhou1
+{
+    height: 409px;
+    width: 395px;
+}
+.default4{
+    height: 340px;
+    width: 362px;
+    position: absolute;
+    right: 41px;
+}
+
+.defhou2
+{
+    height: 409px;
+    width: 395px;
+    
+}
+.det1{
+    /* border: 2px solid; */
+    height: 143px;
+    width: 391px;
+    position: absolute;
+    left: 10px;
+    top: 408px;
+}
+.loc1{
+    width: 18px;
+}
+.area1{
+    position: absolute;
+    top: 38px;
+    left: 19px;
+}
+.sqft{
+    width: 22px;
+    position: absolute;
+    top: 84px;
+    left: 1px;
+}
+.det2{
+    /* border: 2px solid; */
+    height: 143px;
+    width: 391px;
+    position: absolute;
+    left: 426px;
+    top: 408px;
+}
+.area2{
+    position: absolute;
+    top: 35px;
+    left: 19px;
+}
+.sqft1{
+    width: 22px;
+    position: absolute;
+    top: 84px;
+    left: 1px;
+}
+.det3{
+    /* border: 2px solid; */
+    height: 143px;
+    width: 391px;
+    position: absolute;
+    right: 6px;
+    top: 408px;
+}
+.area3{
+    position: absolute;
+    top: 37px;
+    left: 17px;
+}
+.sqft2{
+    width: 22px;
+    position: absolute;
+    top: 84px;
+    left: 1px;
+}
+.again{
+    position: absolute;
+    top: 556px;
+    right: 412px;
+}
+.again1{
+    position: absolute;
+    top: 557px;
+    left: 418px;
+}
+.see{
+    position: absolute;
+    top: 1153px;
+    left: 587px;
+}
+   /* ------block7----------- */
+.block7{
+    /* border: 2px solid grey; */
+    height: 1093px;
+    position: relative;
+}
+.what{
+    position: absolute;
+    top: 23px;
+    left: 524px;
+}
+.comma{
+    position: absolute;
+    top: 55px;
+    left: 59px;
+}
+.commaa{
+    width: 122px;
+    height: 102px;
+}
+.women{
+    position: absolute;
+    top: 138px;
+    left: 90px;
+}
+.womenn{
+    width: 539px;
+    height: 300px;
+}
+.angelie{
+    position: absolute;
+    top: 152px;
+    left: 685px;
+}
+.abbout{
+    line-height: 1px;
+    position: absolute;
+    top: 227px;
+    right: 268px;
+}
+.dedode{
+    width: 100px;
+    height: 103px;
+    position: absolute;
+    top: 370px;
+    left: 583px;
+    z-index: -1;
+}
+.p{
+    width: 100px;
+}
+.home{
+    position: absolute;
+    top: 344px;
+    left: 682px;
+}
+.get{
+    /* border: 2px solid; */
+    background-color: tomato;
+    background-color: tomato;
+    height: 200px;
+    width: 1156px;
+    border-radius: 10px;
+    position: absolute;
+    top: 490px;
+    left: 41px;
+}
+.agent{
+    position: absolute;
+    top: 583px;
+    right: 125px;
+}
+.near
+{
+    width: 396px;
+    position: absolute;
+    top: 501px;
+    left: 206px;
+    font-size: 25px;
+}
+.c1{
+    color: white;
+}
+.c2{
+    font-size: 21px;
+    color: white;
+}
+.corr{
+    left: 10px;
+    position: absolute;
+    top: 622px;
+    z-index: -1;
+}
+.addst{
+
+}
+.table{
+    /* border: 2px solid palevioletred; */
+    width: 543px;
+    position: absolute;
+    top: 809px;
+    left: 493px;
+}
+.footer{
+    width: 1164px;
+    height: 164px;
+    position: absolute;
+    top: 927px;
+}
+.foot{
+    width: 1164px;
+    height: 164px;
+}
+.llaas,tr,td{
+    border-collapse: collapse;
+    width: 545px;
+    height: 31px;
+}
+.oi{
+    text-align: left;
+}
